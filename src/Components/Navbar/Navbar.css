@@ -1,0 +1,71 @@
+/* Navbar.css */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.5rem;
+    margin-top: -2px;
+    position: relative;
+}
+
+.navbar-logo {
+    height: 2vw;
+    min-height: 35px;
+    width: 7.8125vw;
+    min-width: 134px;
+}
+
+.navbar-logo-sm {
+    height: 1.8rem;
+    width: 7rem;
+}
+
+.navbar-menu {
+    display: none;
+    flex-direction: column;
+    font-weight: 400;
+    color: black;
+    gap: 5rem;
+}
+
+.navbar-menu.dark {
+    color: white;
+    font-weight: 300;
+}
+
+.navbar-link {
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-link:hover::after {
+    background: black;
+}
+
+.navbar-link.dark:hover::after {
+    background: #ec6e59;
+}
+
+.hamburger-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: black;
+    gap: 2rem;
+    position: absolute;
+    top: 4.5rem;
+    right: 3.5rem;
+    z-index: 10;
+    background: #fdd6cf;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
