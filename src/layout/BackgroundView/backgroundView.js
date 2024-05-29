@@ -1,9 +1,8 @@
-import React from 'react';
-import { loadFull } from 'tsparticles';
-import Particles from 'react-particles';
-import './backgroundView.css'; // Make sure to import your CSS file
+import React from 'react'
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
 
-const BackgroundView = ({children}) => {
+const BackgroundView = ({ children }) => {
 
     const particlesInit = async (main) => {
         console.log(main);
@@ -14,7 +13,7 @@ const BackgroundView = ({children}) => {
         console.log(container);
     };
 
-    return ( 
+    return (
         <div id="particles-js">
             <Particles
                 id="tsparticles"
@@ -83,7 +82,7 @@ const BackgroundView = ({children}) => {
             />
             {children}
         </div >
-     );
+    )
 }
- 
-export default BackgroundView;
+
+export default BackgroundView
