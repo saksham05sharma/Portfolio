@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
 import { TbWorldCode } from 'react-icons/tb';
 import './Navbar.css'; // Import the CSS file
 

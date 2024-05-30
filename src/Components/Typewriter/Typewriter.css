@@ -1,0 +1,21 @@
+/* Typewriter.css */
+
+.typewriter-text {
+    font-weight: 500;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .typewriter-text {
+        font-weight: 400;
+        color: #ec6e59;
+    }
+}
+
+@media (min-width: 640px) {
+    .typewriter-text {
+        font-size: 2rem;
+    }
+}
