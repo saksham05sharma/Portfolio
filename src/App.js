@@ -1,3 +1,4 @@
+import Experiences from './Components/Experiences/Experiences';
 import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
@@ -11,6 +12,7 @@ function App() {
           <Navbar />
           <Main />
           <Projects />
+          <Experiences />
         </div>
       </BackgroundView>
     </div>

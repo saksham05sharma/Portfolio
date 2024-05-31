@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { TbWorldCode } from 'react-icons/tb';
 import './Navbar.css'; // Import the CSS file
+import '../../App.css'
+import '../../index.css'
 
 function Navbar() {
     const [colorTheme, setColorTheme] = useState('light');
@@ -41,12 +43,14 @@ function Navbar() {
             />
             {!showMenu && (
                 <ul className="hidden tm:block sm:block md:flex font-[400] text-black dark:text-white dark:font-[300] text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
-                    <a className="navbar-link" onClick={() => scrollToComponent('experience')}>
-                        Experience
-                    </a>
                     <a className="navbar-link" onClick={() => scrollToComponent('projects')}>
                         Projects
                     </a>
+
+                    <a className="navbar-link" onClick={() => scrollToComponent('experience')}>
+                        Experience
+                    </a>
+                    
                     <a className="navbar-link" onClick={() => scrollToComponent('contact')}>
                         Contact
                     </a>

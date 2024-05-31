@@ -1,5 +1,6 @@
 /* Navbar.css */
-
+@import url(../../App.css);
+@import url(../../index.css);
 .navbar-container {
     display: flex;
     justify-content: space-between;

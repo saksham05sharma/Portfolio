@@ -1,5 +1,6 @@
 /* Typewriter.css */
-
+@import url(../../App.css);
+@import url(../../index.css);
 .typewriter-text {
     font-weight: 500;
     color: black;

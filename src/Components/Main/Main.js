@@ -1,6 +1,8 @@
 import './Main.css'
 import imgsrc from '../../assets/main_image.png'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import '../../App.css'
+import '../../index.css'
 
 import Typewriter from "../Typewriter/Typewriter";
 

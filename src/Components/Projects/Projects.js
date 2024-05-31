@@ -2,33 +2,6 @@ import data from '../../Data/ProjectsData/projectsData'
 import Project from '../Project/Project';
 import '../../App.css'
 import '../../index.css'
-// import './Projects.css'
-// const Projects = () => {
-//     return ( 
-//         <div id="projects" className="projects-container">
-//             <div>
-//                 <h1 className="projects-title">Few Projects</h1>
-//             </div>
-//             {
-//                 data.ProjectsData.map((project)=>{
-//                     return (
-//                         <Project
-//                         key = {project.id} 
-//                         image = {project.img}
-//                         name = {project.name}
-//                         stack = {project.stack}
-//                         source = {project.source}
-//                         description = {project.description}
-//                         />
-//                     )
-//                 })
-//             }
-//         </div>
-//      );
-// }
- 
-
-
 const Projects = () => {
   return (
     <div id='projects' className='sm:pl-[10rem] sm:p-8 p-16 mt-4 sm:mt-0 sm:px-4 sm:py-2'>
@@ -42,7 +15,7 @@ const Projects = () => {
                 name={project.name}
                 // live={project.live}
                 source={project.source}
-                desc={project.description}/>)
+                description={project.description}/>)
         })}
        
     </div>

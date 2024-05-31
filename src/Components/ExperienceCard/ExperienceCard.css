@@ -1,0 +1,133 @@
+@import url(../../App.css);
+@import url(../../index.css);
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+  }
+  
+  @media (min-width: 640px) {
+    .experience-content {
+      flex-direction: row;
+      margin-left: 1rem;
+    }
+  }
+  
+  .experience-org {
+    text-align: left;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    margin-left: -0.75rem;
+    margin-top: 0.025rem;
+  }
+  
+  .org-name {
+    flex: 1;
+    min-width: 7.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .org-name {
+      min-width: 5.75rem;
+    }
+  }
+  
+  .experience-date {
+    text-align: center;
+    margin: 0.25rem 0;
+    color: var(--dark-text-color, #ccc);
+    font-size: 0.875rem;
+  }
+  
+  .experience-timeline {
+    display: flex;
+    position: relative;
+    margin-top: 0.3125rem;
+  }
+  
+  @media (min-width: 640px) {
+    .experience-timeline {
+      margin-left: -1.8125rem;
+    }
+  }
+  
+  .timeline-dot {
+    padding: 0.0625rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .timeline-dot {
+      border-color: white;
+    }
+  }
+  
+  .timeline-circle {
+    margin: 0.25rem;
+    background-color: #ec6e59;
+    padding: 0.4375rem;
+    border-radius: 50%;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    top: 1.8125rem;
+    bottom: -1.625rem;
+    left: 0.75rem;
+    border-left: 2px dotted black;
+  }
+  
+  @media (min-width: 640px) {
+    .timeline-line {
+      top: 1.625rem;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .timeline-line {
+      border-color: white;
+    }
+  }
+  
+  .experience-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.25rem;
+  }
+  
+  .experience-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .experience-description {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.75;
+  }
+  
+  @media (min-width: 640px) {
+    .experience-description {
+      width: 80%;
+      text-align: justify;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .experience-description {
+      color: #ccc;
+    }
+  }
+  
