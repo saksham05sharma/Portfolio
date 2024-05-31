@@ -1,0 +1,47 @@
+/* Projects.css */
+@import url(../../App.css);
+@import url(../../index.css);
+.projects-container {
+    padding-left: 16rem;
+    padding: 4rem;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .projects-container {
+      padding-left: 10rem;
+      padding: 2rem;
+      margin-top: 0;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+  
+  .projects-title {
+    width: 18rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 640px) {
+    .projects-title {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .projects-title {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-title {
+      font-size: 2.5rem;
+    }
+  }
+  

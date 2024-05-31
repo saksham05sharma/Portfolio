@@ -1,0 +1,21 @@
+/* Project.css */
+@import url(../../App.css);
+@import url(../../index.css);
+/* Project.css */
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  
+  .project-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Ensure the height matches the width for a square image */
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+  
