@@ -1,5 +1,7 @@
 /* Main.css */
+/* @import '../../App.css' */
 
+/* @import url(../../App.css); */
 .main-container {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,7 @@
 .greeting {
     font-weight: 400;
     font-size: 2rem;
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -223,6 +226,7 @@
     display: flex;
     justify-content: center;
     margin-top: 1.75rem;
+    color: white;
 }
 
 .social-links {
