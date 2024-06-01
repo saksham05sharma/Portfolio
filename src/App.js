@@ -3,6 +3,7 @@ import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import BackgroundView from './layout/BackgroundView';
+import Contact from './Components/Contact/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Main />
           <Projects />
           <Experiences />
+          <Contact />
         </div>
       </BackgroundView>
     </div>

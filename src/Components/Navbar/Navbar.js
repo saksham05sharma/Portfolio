@@ -4,7 +4,7 @@ import './Navbar.css'; // Import the CSS file
 import '../../App.css'
 import '../../index.css'
 
-function Navbar() {
+const Navbar = () => {
     const [colorTheme, setColorTheme] = useState('light');
     const [showMenu, setShowMenu] = useState(false);
 
