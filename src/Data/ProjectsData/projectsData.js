@@ -5,15 +5,6 @@ import realEstateImg from '../../assets/images/project4.png'
 import portfolioImg from '../../assets/images/project5.png'
 const ProjectsData = [
     {
-        id: "climote",
-        img: climoteImg,
-        name: "Climote",
-        stack: ["<HTML />, <CSS />, <Javascript />, <openWeatherAPI />"],
-        // live: "https://climote.netlify.app/",
-        source: "https://climote.netlify.app/",
-        description: "Climote is an innovative weather application designed to provide users with accurate weather forecasts, leveraging the power of the openWeather API. Through seamless integration with this API, Climote delivers comprehensive and up-to-date weather data, empowering users to make informed decisions about their plans and activities. From current conditions to extended forecasts, Climote ensures users have access to the weather information they need, when they need it. Additionally, Climote's responsive website design ensures a seamless and user-friendly experience across various devices, catering to the diverse needs of its user base."
-    },
-    {
         id: "snoppy",
         img: snoppyImg,
         name: "Snoppy",
@@ -48,6 +39,15 @@ const ProjectsData = [
         // live: "https://climote.netlify.app/",
         source: "https://github.com/saksham05sharma/Portfolio",
         description: "This is a portfolio website, which not only highlights my ability to design and develop a professional web presence but also demonstrates my commitment to delivering high-quality, functional, and aesthetically pleasing web applications. It serves as a central hub for potential employers, collaborators, and clients to learn more about my work and get in touch with me."
+    },
+    {
+        id: "climote",
+        img: climoteImg,
+        name: "Climote",
+        stack: ["<HTML />, <CSS />, <Javascript />, <openWeatherAPI />"],
+        // live: "https://climote.netlify.app/",
+        source: "https://climote.netlify.app/",
+        description: "Climote is an innovative weather application designed to provide users with accurate weather forecasts, leveraging the power of the openWeather API. Through seamless integration with this API, Climote delivers comprehensive and up-to-date weather data, empowering users to make informed decisions about their plans and activities. From current conditions to extended forecasts, Climote ensures users have access to the weather information they need, when they need it. Additionally, Climote's responsive website design ensures a seamless and user-friendly experience across various devices, catering to the diverse needs of its user base."
     }
 ]
 

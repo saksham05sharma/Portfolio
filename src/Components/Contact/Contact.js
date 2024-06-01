@@ -9,7 +9,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8jt7o5d', 'template_kdtyrag', form.current, 'vJX_4Gj5yD05jWvCS')
+    emailjs.sendForm('service_i0qpk56', 'template_du82s1m', form.current, 'U40ULwAkiEHZFHh72')
       .then((result) => {
         console.log(result.text);
         console.log("Message Sent");
@@ -27,6 +27,7 @@ function Contact() {
           Contact Me
         </h1>
         <p className='contact-subtitle'>You can contact me at<GmailCopy/></p>
+        <p className='contact-subtitle'>+91-7987863964</p>
       </div>
       <div className='contact-form-container'>
         <form className='contact-form' ref={form} onSubmit={sendEmail}>
