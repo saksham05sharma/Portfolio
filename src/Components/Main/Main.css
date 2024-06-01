@@ -2,8 +2,8 @@
 /* @import '../../App.css' */
 
 /* @import url(../../App.css); */
-@import url(../../App.css);
-@import url(../../index.css);
+/* @import url(../../App.css); */
+/* @import url(../../index.css); */
 .main-container {
     display: flex;
     flex-direction: column;

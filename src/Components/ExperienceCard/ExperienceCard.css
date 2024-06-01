@@ -1,11 +1,9 @@
-@import url(../../App.css);
-@import url(../../index.css);
 .experience-container {
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
   }
   
   .experience-content {
@@ -18,7 +16,7 @@
   @media (min-width: 640px) {
     .experience-content {
       flex-direction: row;
-      margin-left: 1rem;
+      margin-left: 0rem;
     }
   }
   
@@ -60,12 +58,12 @@
     }
   }
   
-  .timeline-dot {
+  /* .timeline-dot {
     padding: 0.0625rem;
     border: 1px solid black;
     border-radius: 50%;
     background-color: transparent;
-  }
+  } */
   
   @media (prefers-color-scheme: dark) {
     .timeline-dot {
@@ -107,9 +105,9 @@
   }
   
   .experience-title {
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
-    font-weight: 600;
+    font-weight: 500;
   }
   
   .experience-description {
